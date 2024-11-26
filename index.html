@@ -15,6 +15,11 @@
                 flex-direction: column;
             }
         </style>
+        <script>
+            if('serviceWorker' in navigator){
+                navigator.serviceWorker.register('serviceWorker.js');
+            }
+        </script>
     
     </head>
     <body>
