@@ -1,0 +1,15 @@
+{
+    "name": "Ibukun's Pet Store PWA",
+    "short_name": "petstore",
+    "description": "Ibukun's Online pet store",
+    "icons": [
+        {
+            "src":"images/product-fullsize.png",
+            "sizes": "155x130",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "petdepotinteraction.html",
+    "display": "fullscreen",
+    "background_color": "#B12A34"
+}
