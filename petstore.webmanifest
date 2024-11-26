@@ -4,8 +4,8 @@
     "description": "Ibukun's Online pet store",
     "icons": [
         {
-            "src":"images/product-fullsize.png",
-            "sizes": "155x130",
+            "src":"images/mine.png",
+            "sizes": "360x360",
             "type": "image/png"
         }
     ],
