@@ -4,6 +4,17 @@
         <title>Pet Depot</title>
         <script src="https://unpkg.com/vue@2.7.8/dist/vue.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <style>
+            .product{
+                border: 1px grey solid;
+                padding: 20px;
+                margin: 20px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+            }
+        </style>
+    
     </head>
     <body>
         <div id="app">
@@ -17,7 +28,7 @@
             </header>
             <main>
                 <div v-if="showProduct">
-                    <div v-for="product in sortedProducts">
+                    <div class="product" v-for="product in sortedProducts">
                         <figure style="display: inline-block;">
                             <img v-bind:src="product.image" style="height: 130px; width: 155px;">
                         </figure>
